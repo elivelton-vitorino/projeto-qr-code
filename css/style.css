@@ -1,0 +1,72 @@
+body {
+  background-color: var(--Light);
+  font-family: "Outfit", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Secular One", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.qr-code {
+    max-width: 160px;
+    background-color: var(--Whitea);
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .title {
+    font-size: 10px;
+    text-align: center;
+    margin: 10px 0 10px;
+    color: var(--Dark);
+    font-weight: 700;
+  }
+
+  .texto {
+    color: var(--Grayish);
+    text-align: center;
+    font-weight: 300;
+    font-size: 5px;
+  }
+ 
+
+  @media screen and (min-width: 1440px) {
+    
+.qr-code {
+    max-width:290px;
+    background-color: var(--Whitea);
+    border-radius: 20px;
+    padding: 15px;
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  .title {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0 10px;
+    color: var(--Dark);
+    font-weight:700;
+    margin-top: 10px;
+  }
+
+  .texto {
+    color: var(--Grayish);
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  }
